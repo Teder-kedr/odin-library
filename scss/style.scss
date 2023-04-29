@@ -1,0 +1,58 @@
+@use "./_reset.scss";
+
+body {
+    font-family: "Helvetica Neue", sans-serif;
+}
+
+h1 {
+    padding: calc(1rem + 1px);
+    font-weight: 400;
+    font-size: 3rem;
+}
+
+table {
+    margin: 1rem;
+}
+
+th {
+    font-size: 1.25rem;
+    width: 12rem;
+}
+
+tr {
+    height: 4rem;
+}
+
+td {
+    padding-left: 0.5rem;
+}
+
+tr:nth-child(odd) {
+    background-color: #eee;
+}
+
+tr:nth-child(1) {
+    background-color: #ddd;
+}
+
+button.add,
+button.remove {
+    margin: 1rem;
+    height: 3rem;
+    width: 3rem;
+    border: none;
+    background-color: transparent;
+    border-radius: 50%;
+    font-size: 4rem;
+    font-weight: 700;
+    text-align: center;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+tr td:nth-child(5) {
+    background-color: white;
+}
